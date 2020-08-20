@@ -1,40 +1,88 @@
 # Reporte de configuracion
 
-> Follow your heart.
+> A continuacion se detalla las configuraciones para el siguiente modelo.
 
-### Configurando Router
+![](https://github.com/alexdevep/Recursos/blob/master/modelo.JPG)
 
-> Blockquotes :star:
+## Configurando Router
+
+> A continuacion se detallan los comandos de la configuracion del router.
+
+> Inicialmente ingresamos este comando, para verificar que realmente no tengamos IP asignada al router
 
 ```javascript
-function test(){
-	console.log("Hello world!");
-}
+Router#sh ip interface brief
+```
 
-testBox.add("jQuery").remove("jQuery");
+> Con este comando inicializamos la configuracion del terminal
+```javascript
+Router#configure terminal
+```
+
+> Establecemos el tipo de comunicacion del router
+```javascript
+Router(config-if)#duplex full
 ```
 
 
-### FlowChart
-
-### Pendejeishon
-
-
-> Blockquotes :star:
+> Establecemos la direccion IP y mascara de red
+```javascript
+Router(config-if)#ip address 192.168.10.254 255.255.255.0
+```
 
 
-###Images
+> Este comando hace que no se apague el router
+```javascript
+Router(config-if)#no shutdown
+```
 
-Image:
 
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+> Finalizamos la configuracion
+```javascript
+Router(config-if)#exit
+```
 
-> Follow your heart.
+> Para configurar el otro puerto se hace el mismo procedimiento :star:
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+> Al Finalizar ingresamos este comando y verificamos si nuestros cambios fueron realizados
+```javascript
+Router(config)#interface fastEthernet 0
+```
 
-> 图为：厦门白城沙滩 Xiamen
+![](https://github.com/alexdevep/Recursos/blob/master/r2.JPG)
 
-图片加链接 (Image + Link)：
+![](https://github.com/alexdevep/Recursos/blob/master/r1.JPG)
 
-[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
+
+## Configurando Host Linux
+
+> A continuacion se detalla la configuracion del host de linux
+
+> Al ser un Tiny Linux podemos configurar la IP, Mask y Broadcast de manera grafica, lo cual es mucho mas sensillo, aplicando cambios
+
+![](https://github.com/alexdevep/Recursos/blob/master/p1.JPG)
+
+> Para ver que realmente se actualizo la configuracion, abrimos la terminal e ingresamos el comando
+
+```javascript
+$ ifconfig
+```
+
+> Automaticamente despues de ingresar el comando nos despliega la configuracion en consola
+
+![](https://github.com/alexdevep/Recursos/blob/master/p2.JPG)
+
+### Conexion Host de Linux
+
+> Para probar la conexion del Host Linux con las otras vpcs abrimos la terminal y escribimos
+
+```javascript
+$ ip <direccion deseada>
+"Ejemplo de prueba"
+$ ip 192.168.14.15
+```
+
+## FlowChart
+
+
+:star: Gracias por visitarnos! Cienazo!! :star:
