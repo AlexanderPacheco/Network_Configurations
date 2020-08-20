@@ -82,7 +82,55 @@ $ ip <direccion deseada>
 $ ip 192.168.14.15
 ```
 
-## FlowChart
+## Configurando VPCS
+
+> Para configurar las vpcs unicamente necesitamos de un comando, el cual seria 
+
+```javascript
+$ ip <IP_Address> <Mask> <Gateway>
+```
+
+> Podemos ingresar el comando tal como vimos anterior mente o simplemente obviando la mascara, y obtenemos el mismo resultado
+
+```javascript
+$ ip <IP_Address>/24 <Gateway>
+```
+
+```javascript
+"Forma #1"
+$ ip 192.168.14.30 255.255.255.0 192.168.14.254
+"Forma #2"
+$ ip 192.168.14.30/24 192.168.14.254
+```
+
+> Para ver la configuracion de nuestras vpcs basta con ingresar el siguiente comando
+
+```javascript
+PC2> show ip
+```
+
+> Para probar nuestra conexion con otras vpcs, ingresamos el siguiente comando
+
+```javascript
+PC2> ping <IP_Address>
+
+"Ejemplo"
+PC2> ping 192.168.16.30
+```
+
+### Conexion Host de Linux
+
+> Detalle de configuracion y prueba de VPC 1
+
+![](https://github.com/alexdevep/Recursos/blob/master/p4.JPG)
+
+> Detalle de configuracion y prueba de VPC 2
+
+![](https://github.com/alexdevep/Recursos/blob/master/p5.JPG)
+
+> Detalle de configuracion y prueba de VPC 3
+
+![](https://github.com/alexdevep/Recursos/blob/master/p6.JPG)
 
 
 :star: Gracias por visitarnos! Cienazo!! :star:
