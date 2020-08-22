@@ -135,12 +135,35 @@ PC2> ping 192.168.16.30
 
 ## Glosario
 
-### Conexion Host de Linux
++ IP:
+La dirección IP es un conjunto de números que identifica, de manera lógica y jerárquica, a una Interfaz en la red (elemento de comunicación/conexión) de un dispositivo.
 
-+ First item
-+ Second item
-+ Third item
-+ Fourth item 
++ Broadcast:
+El broadcast es un mensaje que se transmite a todos los miembros de una red y que no necesita ninguna acción de retroalimentación.
+
++ Mask:
+La máscara de red es una combinación de bits que sirve para delimitar el ámbito de una red de ordenadores.
+
++ Infraestructura: 
+Conjunto de medios técnicos, servicios e instalaciones necesarios para el desarrollo de una actividad o para que un lugar pueda ser utilizado.
+
++ Router:
+Es un dispositivo que permite interconectar computadoras que funcionan en el marco de una red. Su función: se encarga de establecer la ruta que destinará a cada paquete de datos dentro de una red informática. 
+
++ Hub:
+Concentrador (hub) es el dispositivo que permite centralizar el cableado de una red de computadoras, para luego poder ampliarla.
+
++ Switch:
+Un switch o conmutador es un dispositivo de interconexión utilizado para conectar equipos en red.
+
++ Red:
+Una red de computadoras es un conjunto de equipos nodos y software conectados entre sí por medio de dispositivos físicos o inalámbricos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con la finalidad de compartir información, recursos y ofrecer servicios.
+
++ Comando: 
+Es una orden capaz de ser interpretada y procesada por el lenguaje informático, teniendo una importancia a nivel de interacción con la PC, y con el tiempo relegado a la configuración
+
++ Compatibilidad: 
+Es laa cualidad de ser compatible, de un objeto a otro bajo buenas condiciones.
 
 
 :star: Gracias por visitarnos! Cienazo!! :star:
