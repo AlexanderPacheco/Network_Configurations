@@ -133,4 +133,14 @@ PC2> ping 192.168.16.30
 ![](https://github.com/alexdevep/Recursos/blob/master/p6.JPG)
 
 
+## Glosario
+
+### Conexion Host de Linux
+
++ First item
++ Second item
++ Third item
++ Fourth item 
+
+
 :star: Gracias por visitarnos! Cienazo!! :star:
