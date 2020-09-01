@@ -163,7 +163,7 @@ Una red de computadoras es un conjunto de equipos nodos y software conectados en
 Es una orden capaz de ser interpretada y procesada por el lenguaje informático, teniendo una importancia a nivel de interacción con la PC, y con el tiempo relegado a la configuración
 
 + Compatibilidad: 
-Es laa cualidad de ser compatible, de un objeto a otro bajo buenas condiciones.
+Es la cualidad de ser compatible, de un objeto a otro bajo buenas condiciones.
 
 
 :star: Gracias por visitarnos! Cienazo!! :star:
